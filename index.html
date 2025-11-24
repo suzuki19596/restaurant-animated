@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOURMET RESTAURANT | 至福の美食体験</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ヘッダー -->
+    <header class="header">
+        <div class="container">
+            <div class="header-wrapper">
+                <div class="logo">GOURMET</div>
+                <nav class="nav">
+                    <a href="#hero">HOME</a>
+                    <a href="#about">ABOUT</a>
+                    <a href="#menu">MENU</a>
+                    <a href="#gallery">GALLERY</a>
+                    <a href="#reservation">RESERVATION</a>
+                </nav>
+                <a href="tel:03-1234-5678" class="header-tel">03-1234-5678</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- ヒーローセクション -->
+    <section id="hero" class="hero">
+        <div class="hero-bg">
+            <div class="hero-image" style="background-image: url('images/hero.jpg')"></div>
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title fade-in-up">
+                    <span class="hero-subtitle">Premium French Cuisine</span>
+                    <span class="hero-main">至福の美食体験を</span>
+                </h1>
+                <p class="hero-text fade-in-up" style="animation-delay: 0.3s">
+                    厳選された旬の食材と、シェフの匠の技が織りなす<br>
+                    特別なひとときをお届けします
+                </p>
+                <div class="hero-buttons fade-in-up" style="animation-delay: 0.6s">
+                    <a href="#reservation" class="btn-primary">ご予約はこちら</a>
+                    <a href="#menu" class="btn-outline">メニューを見る</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Aboutセクション -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text reveal-fade">
+                    <div class="section-label">ABOUT US</div>
+                    <h2 class="section-title">料理へのこだわり</h2>
+                    <div class="about-description">
+                        <p>
+                            私たちは、旬の食材を活かした本格フレンチをご提供しています。
+                            シェフが厳選した新鮮な食材を使い、伝統的な技法と革新的なアイデアを融合させた
+                            独創的な料理をお楽しみいただけます。
+                        </p>
+                        <p>
+                            落ち着いた雰囲気の店内で、大切な方との特別な時間を
+                            心を込めておもてなしいたします。
+                        </p>
+                    </div>
+                    <div class="about-features">
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <img src="images/feature-icon-wine.png" alt="厳選ワイン" style="width: 80px; height: 80px;">
+                            </div>
+                            <h3>厳選ワイン</h3>
+                            <p>ソムリエが選ぶ極上のワインペアリング</p>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <img src="images/feature-icon-chef.png" alt="一流シェフ" style="width: 80px; height: 80px;">
+                            </div>
+                            <h3>一流シェフ</h3>
+                            <p>フランス修業の経験豊富なシェフ</p>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <img src="images/feature-icon-leaf.png" alt="旬の食材" style="width: 80px; height: 80px;">
+                            </div>
+                            <h3>旬の食材</h3>
+                            <p>産地直送の新鮮な季節の食材</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- メニューセクション -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <div class="section-header reveal-fade">
+                <div class="section-label">MENU</div>
+                <h2 class="section-title">コース料理</h2>
+            </div>
+            <div class="menu-grid">
+                <div class="menu-card reveal-scale">
+                    <div class="menu-image">
+                        <img src="https://images.unsplash.com/photo-1551218808-94e220e084d2?w=600" alt="ランチコース">
+                        <div class="menu-badge">LUNCH</div>
+                    </div>
+                    <div class="menu-content">
+                        <h3 class="menu-title">ランチコース</h3>
+                        <div class="menu-price">¥3,800〜</div>
+                        <p class="menu-description">
+                            前菜、スープ、メイン、デザートの4品構成。
+                            平日限定のお得なコースです。
+                        </p>
+                        <ul class="menu-items">
+                            <li>本日の前菜</li>
+                            <li>季節のスープ</li>
+                            <li>メイン料理（魚or肉）</li>
+                            <li>デザート・コーヒー</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="menu-card reveal-scale" style="animation-delay: 0.2s">
+                    <div class="menu-image">
+                        <img src="https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?w=600" alt="ディナーコース">
+                        <div class="menu-badge">DINNER</div>
+                    </div>
+                    <div class="menu-content">
+                        <h3 class="menu-title">ディナーコース</h3>
+                        <div class="menu-price">¥8,800〜</div>
+                        <p class="menu-description">
+                            シェフ特製の本格フレンチフルコース。
+                            特別な日のディナーに最適です。
+                        </p>
+                        <ul class="menu-items">
+                            <li>アミューズ</li>
+                            <li>前菜2品</li>
+                            <li>魚料理</li>
+                            <li>肉料理</li>
+                            <li>デザート・コーヒー</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="menu-card reveal-scale" style="animation-delay: 0.4s">
+                    <div class="menu-image">
+                        <img src="https://images.unsplash.com/photo-1464093515883-ec948246accb?w=600" alt="スペシャルコース">
+                        <div class="menu-badge">SPECIAL</div>
+                    </div>
+                    <div class="menu-content">
+                        <h3 class="menu-title">スペシャルコース</h3>
+                        <div class="menu-price">¥15,000〜</div>
+                        <p class="menu-description">
+                            最高級食材を使用した極上のコース。
+                            記念日や大切な方とのお食事に。
+                        </p>
+                        <ul class="menu-items">
+                            <li>アミューズ</li>
+                            <li>前菜3品</li>
+                            <li>魚料理</li>
+                            <li>肉料理（A5和牛）</li>
+                            <li>デザート2品・コーヒー</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ギャラリーセクション -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-header reveal-fade">
+                <div class="section-label">GALLERY</div>
+                <h2 class="section-title">料理と空間</h2>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item reveal-zoom">
+                    <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600" alt="料理1">
+                </div>
+                <div class="gallery-item reveal-zoom" style="animation-delay: 0.1s">
+                    <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?w=600" alt="料理2">
+                </div>
+                <div class="gallery-item reveal-zoom" style="animation-delay: 0.2s">
+                    <img src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=600" alt="料理3">
+                </div>
+                <div class="gallery-item reveal-zoom" style="animation-delay: 0.3s">
+                    <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600" alt="料理4">
+                </div>
+                <div class="gallery-item reveal-zoom" style="animation-delay: 0.4s">
+                    <img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=600" alt="料理5">
+                </div>
+                <div class="gallery-item reveal-zoom" style="animation-delay: 0.5s">
+                    <img src="https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?w=600" alt="料理6">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 予約セクション -->
+    <section id="reservation" class="reservation">
+        <div class="container">
+            <div class="reservation-content">
+                <div class="reservation-info reveal-left">
+                    <div class="section-label">RESERVATION</div>
+                    <h2 class="section-title">ご予約</h2>
+                    <p class="reservation-text">
+                        お電話またはオンラインフォームより<br>
+                        ご予約を承っております
+                    </p>
+                    <div class="reservation-details">
+                        <div class="detail-item">
+                            <h4>営業時間</h4>
+                            <p>
+                                ランチ：11:30〜14:30（L.O. 14:00）<br>
+                                ディナー：18:00〜22:00（L.O. 21:00）
+                            </p>
+                        </div>
+                        <div class="detail-item">
+                            <h4>定休日</h4>
+                            <p>毎週月曜日（祝日の場合は営業）</p>
+                        </div>
+                        <div class="detail-item">
+                            <h4>お電話</h4>
+                            <p class="tel-number">03-1234-5678</p>
+                        </div>
+                        <div class="detail-item">
+                            <h4>住所</h4>
+                            <p>〒150-0000<br>東京都渋谷区〇〇 1-2-3 ビル名 2F</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="reservation-form reveal-right">
+                    <div class="form-group">
+                        <label>お名前</label>
+                        <input type="text" required>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>電話番号</label>
+                            <input type="tel" required>
+                        </div>
+                        <div class="form-group">
+                            <label>メールアドレス</label>
+                            <input type="email" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>ご希望日</label>
+                            <input type="date" required>
+                        </div>
+                        <div class="form-group">
+                            <label>ご希望時間</label>
+                            <select required>
+                                <option>11:30</option>
+                                <option>12:00</option>
+                                <option>12:30</option>
+                                <option>13:00</option>
+                                <option>18:00</option>
+                                <option>18:30</option>
+                                <option>19:00</option>
+                                <option>19:30</option>
+                                <option>20:00</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>人数</label>
+                            <select required>
+                                <option>1名</option>
+                                <option>2名</option>
+                                <option>3名</option>
+                                <option>4名</option>
+                                <option>5名以上</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>コース</label>
+                            <select required>
+                                <option>ランチコース</option>
+                                <option>ディナーコース</option>
+                                <option>スペシャルコース</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>ご要望・アレルギー等</label>
+                        <textarea rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit">予約する</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- フッター -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">GOURMET</div>
+                    <p>Premium French Cuisine</p>
+                </div>
+                <div class="footer-info">
+                    <div class="footer-section">
+                        <h4>RESTAURANT</h4>
+                        <p>
+                            〒150-0000<br>
+                            東京都渋谷区〇〇 1-2-3<br>
+                            TEL: 03-1234-5678
+                        </p>
+                    </div>
+                    <div class="footer-section">
+                        <h4>HOURS</h4>
+                        <p>
+                            Lunch 11:30-14:30<br>
+                            Dinner 18:00-22:00<br>
+                            定休日: 月曜日
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Gourmet Restaurant. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
